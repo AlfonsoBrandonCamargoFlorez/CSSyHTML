@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRUSTY KAB</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="/Imagenes/newpost.gif" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a href="#otraspaginas1" onclick="desmarcar()">Home</a></li>
+            <li><a href="#otraspaginas2" onclick="desmarcar()">about</a></li>
+            <li><a href="#otraspaginas3" onclick="desmarcar()">Burgers</a></li>
+            <li><a href="#otraspaginas4" onclick="desmarcar()">Postres</a></li>
+            <li><a href="#otraspaginas5" onclick="desmarcar()".checked>Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <section id="otraspaginas1">      
+        <div>
+            <h1>La casa del Sabor</h1>
+            <small>Dicen que la glotonería es un pecado, si eso es cierto te invitamos a entrar y disfrutar del infierno.</small>
+          </div>
+          <div class="imagen1pag">
+          <img src="/Imagenes/burger.gif" alt="Las mejores cosas toman su tiempo">
+          </div>
+    </section>
+
+
+    <section id="otraspaginas2">
+
+        <div class="imagen2pag">
+            <img src="/Imagenes/preparacion.gif" alt="Las mejores cosas toman su tiempo">
+        </div>
+        <div class="textos-derecha">
+            <p class="p1">About Us?</p>
+            <p class="p2">Somos una apasionada empresa creada desde 1875.</p>
+            <p class="p3">Siempre seleccionamos cuidadosamente todos nuestros vegetales y carnes, vivimos amando e innovando en todas nuestras creaciones, de las cosas que mas nos caracterizan son nuestros explosivos sabores y la cantidad, es mejor que sobre a que falte!.</p>
+            <a class="p4" href="https://www.casadellibro.com.co/libros-ebooks-gratis/184">Leer más.</a>
+            
+        </div>
+
+    </section>
+
+
+    <script>function desmarcar() {
+            document.getElementById("check").checked = false
+        }</script>
+</body>
+
+<section id="otraspaginas3">
+    <div class="contenedor-textos">
+        <h1>Menu de Comida</h1>
+        <p>Una explosion de sabor en tu boca!</p>
+    </div>
+    <div class="contenedor-imagenes">
+        <div class="imagen">
+            <img src="/Imagenes/burger sencilla.jpg" alt="Descripción de la imagen 1">
+            <div class="textos-img">
+                <p class="7">Hamburguesa</p>
+                <p class="8">"SENCILLA"</p>
+                <p class="9">35 K</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="Imagenes/mar burger.jpg" alt="Descripción de la imagen 2">
+            <div class="textos-img">
+                <p class="7">Hamburguesa</p>
+                <p class="8">MIXTA</p>
+                <p class="9">45 K</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="/Imagenes/burger monster.jpg" alt="Descripción de la imagen 3">
+            <div class="textos-img">
+                <p class="7">Hamburguesa</p>
+                <p class="8">MONSTER</p>
+                <p class="9">60 K</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="otraspaginas4">      
+    <div class="contenedor-textos">
+        <h1>Postres</h1>
+        <p>Fruta del campo a tu plato.</p>
+    </div>
+    <div class="contenedor-imagenes">
+        <div class="imagen">
+            <img src="/Imagenes/Postre2.jpg" alt="Descripción de la imagen 1">
+            <div class="textos-img">
+                <p class="7">PARFFAIT</p>
+                <p class="8">Mora y Chocolate</p>
+                <p class="9">25 K</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="Imagenes/Malteada.jpeg" alt="Descripción de la imagen 2">
+            <div class="textos-img">
+                <p class="7">Malteadas</p>
+                <p class="8">Oreo, Fresa y Mora</p>
+                <p class="9">37 K</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="/Imagenes/postre 3.jpg" alt="Descripción de la imagen 3">
+            <div class="textos-img">
+                <p class="7">Para compartir</p>
+                <p class="8">Fresa Uva Maracuya</p>
+                <p class="9">60 K</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="otraspaginas5">      
+    <div class="contenedor-textosu">
+        <h3>We make quality food <br> Everyday</h3>
+        <button></button>
+    </div>
+    <div class="contenedor-imagenesu">
+        <div class="imagen">
+            <img src="/Imagenes/animefood.gif" alt="Descripción de la imagen 1">           
+            <a class="button" href="https://www.casadellibro.com.co/libros-ebooks-gratis/184">Leer más.</a>
+        </div>
+    </div>
+
+</section>
+
+<section id="otraspaginas6">      
+    <div>
+        <h1>La casa del Sabor</h1>
+        <small>Dicen que la glotonería es un pecado, si eso es cierto te invitamos a entrar y disfrutar del infierno.</small>
+      </div>
+      <div class="imgini">
+      <img src="/Imagenes/" alt="Las mejores cosas toman su tiempo">
+      </div>
+</section>
+
+
+<script>function desmarcar() {
+        document.getElementById("check").checked = false
+    }</script>
+<!-- /* este es el boton para subir*/ -->
+<a href="#top" id="scrollTop" class="bx bx-up-arrow-alt"></a>
+</body>
+
+</html>
